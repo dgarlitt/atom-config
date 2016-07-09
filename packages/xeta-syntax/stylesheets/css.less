@@ -1,0 +1,52 @@
+@import "syntax-variables";
+
+.keyword {
+    &.at-rule.css {
+        color: @blue;
+    }
+}
+
+.comment.css {
+    color: @comment-css;
+    font-style: @comment-font;
+}
+
+.entity {
+    &.tag.css {
+        color: @blue;
+    }
+}
+
+.string {
+    &.quoted.css {
+        color: @yellow;
+    }
+}
+
+.support {
+
+    &.property-name.css {
+        color: @orange;
+    }
+
+    &.function {
+        color: @blue;
+    }
+}
+
+.constant {
+    &.numeric.css {
+        color: @numeric-css;
+    }
+
+    &.color.css {
+        color: @numeric-css;
+    }
+}
+
+.punctuation {
+    &.terminator.css,
+    &.separator.css {
+        color: @blue;
+    }
+}

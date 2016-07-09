@@ -1,0 +1,65 @@
+@import "syntax-variables";
+
+.comment.js {
+    color: @comment-js;
+    font-style: @comment-font;
+}
+
+.string {
+
+    &.quoted.js {
+        color: @yellow;
+    }
+}
+
+.punctuation {
+
+    &.string.js,
+    &.terminator.js,
+    &.scope.js,
+    &.parameters.js {
+        color: @red;
+    }
+}
+
+.meta {
+
+    &.brace.js {
+        color: @red;
+    }
+}
+
+.storage.js {
+    color: @blue;
+}
+
+.support {
+
+    &.js,
+    &.function.js,
+    &.constant.js {
+        color: @orange;
+    }
+}
+
+.entity {
+
+    &.function.js {
+        color: @yellow;
+    }
+}
+
+.keyword.js {
+    color: @blue;
+}
+
+.constant {
+
+    &.language {
+        color: @blue;
+    }
+
+    &.numeric.js {
+        color: @numeric-js;
+    }
+}

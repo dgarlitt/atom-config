@@ -1,0 +1,57 @@
+@import "syntax-variables";
+
+.comment.html {
+    color: @comment-html;
+    font-style: @comment-font;
+}
+
+.entity {
+
+    &.tag.html {
+        color: @blue;
+    }
+
+    &.attribute-name.html {
+        color: @orange;
+    }
+}
+
+.punctuation {
+
+    &.separator.html {
+        color: @blue;
+    }
+
+    &.definition {
+
+        &.string.html {
+            color: @red;
+        }
+
+        &.tag.html {
+            color: @tag-end-html;
+        }
+    }
+}
+
+.meta {
+
+    &.tag {
+
+        &.any.html,
+        &.inline.html {
+            color: @blue;
+        }
+
+        &.doctype.html {
+            color: @orange;
+        }
+    }
+}
+
+.string {
+
+    &.quoted.html {
+        color: @yellow;
+    }
+}

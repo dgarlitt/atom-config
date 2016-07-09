@@ -1,0 +1,79 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "e5541be1-65b8-49b7-a3a1-6561f4aee421"
+    general:
+      _analyticsUserId: "69eede28-9def-4783-b7a9-64b2b73d2c17"
+  "auto-host-markdown-image": {}
+  "autocomplete-plus": {}
+  core:
+    disabledPackages: [
+      "vim-mode"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapHangingIndent: 4
+  "exception-reporting":
+    userId: "c03ec616-5657-19e1-bc6f-58d03d377011"
+  "go-plus":
+    formatTool: "gofmt"
+    goInstallation: "/usr/local/go"
+    goPath: "/Users/daniel.arlitt/Public/personal/go"
+    runCoverageOnSave: true
+  linter:
+    errorPanelHeight: 152
+  "linter-js-yaml": {}
+  "merge-conflicts": {}
+  minimap: {}
+  "python-autopep8": {}
+  "tree-view":
+    focusOnReveal: false
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+".git-commit.text":
+  editor:
+    softWrapHangingIndent: 4
+".git-config.source":
+  editor:
+    softWrapHangingIndent: 4
+".git-rebase.text":
+  editor:
+    softWrapHangingIndent: 4
+".html.jsp.text":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+".java-properties.source":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+".java.source":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: false
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+".junit-test-report.text":
+  editor:
+    scrollPastEnd: false
+".source.yaml":
+  editor:
+    autoIndentOnPaste: true
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: false
+    tabLength: 2

@@ -1,0 +1,42 @@
+@import "syntax-variables";
+
+.comment.ruby {
+    color: @comment-rb;
+    font-style: @comment-font;
+}
+
+.keyword.ruby {
+    color: @blue;
+}
+
+.entity {
+
+    &.class.ruby {
+        color: @orange;
+    }
+
+    &.function.ruby {
+        color: @yellow;
+    }
+}
+
+.string.ruby {
+    color: @yellow;
+
+    .punctuation.ruby {
+        color: @yellow;
+    }
+}
+
+.support.ruby {
+    color: @orange;
+}
+
+.punctuation {
+
+    &.method.ruby,
+    &.section.ruby,
+    &.parameters.ruby {
+        color: @red;
+    }
+}

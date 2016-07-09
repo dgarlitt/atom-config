@@ -1,0 +1,46 @@
+@import "syntax-variables";
+
+.string.coffee {
+	color: @yellow;
+}
+
+.comment.coffee {
+	color: @comment-coffee;
+	font-style: @comment-font;
+}
+
+.keyword.coffee {
+	color: @blue;
+}
+
+.storage {
+	
+	&.class.coffee {
+		color: @orange;
+	}
+	
+	&.function.coffee {
+		color: @red;
+	}
+}
+
+.constant {
+	
+	&.numeric.coffee {
+		color: @numeric-coffee;
+	}
+}
+
+.meta {
+	
+	&.brace.coffee {
+		color: @red;
+	}
+}
+
+.support {
+	
+	&.function.coffee {
+		color: @orange;
+	}
+}

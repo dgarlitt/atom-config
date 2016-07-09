@@ -1,0 +1,94 @@
+@import "syntax-variables";
+
+.keyword {
+
+    &.at-rule.scss {
+        color: @blue;
+    }
+
+    &.unit {
+        color: @numeric-scss;
+    }
+}
+
+.comment.scss {
+    color: @comment-scss;
+    font-style: @comment-font;
+}
+
+.scss .variable {
+    color: @blue;
+}
+
+.punctuation {
+
+    &.constant.scss {
+        color: @numeric-scss;
+    }
+
+    &.key-value.scss,
+    &.terminator.scss {
+        color: @blue;
+    }
+
+}
+
+.constant {
+
+    &.color.scss {
+        color: @numeric-scss;
+    }
+
+    &.numeric.scss {
+        color: @numeric-scss;
+    }
+}
+
+.string {
+
+    &.quoted.scss {
+        color: @yellow;
+    }
+}
+
+.entity {
+
+    &.function.scss {
+        color: @light-green;
+        font-style: italic;
+    }
+
+    &.attribute-name.css,
+    &.attribute-name.scss {
+        color: @yellow
+    }
+
+    &.tag.scss {
+        color: @blue;
+    }
+}
+
+.support {
+
+    &.property-name.scss {
+        color: @orange;
+    }
+
+    &.function.scss {
+        color: @blue;
+    }
+
+    &.property-value {
+        color: @yellow;
+    }
+
+    &.font-name.scss {
+        color: #FFF;
+    }
+}
+
+.meta {
+    &.property-value.scss {
+        color: @yellow;
+    }
+}

@@ -1,0 +1,98 @@
+@import "syntax-variables";
+
+.source.php {
+    color: @red;
+}
+
+.keyword.php {
+    color: @blue;
+}
+
+.entity {
+
+    &.namespace.php,
+    &.class.php,
+    &.inherited-class.php {
+        color: @orange;
+    }
+
+    &.function.php {
+        color: @yellow;
+    }
+}
+
+.punctuation.php {
+    color: @red;
+}
+
+.support {
+
+    &.namespace.php,
+    &.class.php {
+        color: @orange;
+    }
+
+    &.function {
+
+        &.magic.php {
+            color: @yellow;
+            font-style: italic;
+        }
+
+        &.php {
+            color: @blue;
+        }
+
+    }
+}
+
+.storage.php {
+    color: @blue;
+}
+
+.comment.php {
+    color: @comment-php;
+    font-style: @comment-font;
+}
+
+.variable {
+
+    &.php {
+        color: @variable-php;
+    }
+
+    &.property.php {
+        color: @orange;
+    }
+}
+
+.meta {
+
+    &.string-contents.php {
+        color: @yellow;
+    }
+
+    &.function-call.php {
+        color: @orange;
+    }
+}
+
+.constant {
+
+    &.other.php {
+        color: @constant-php;
+        font-style: italic;
+    }
+
+    &.language.php {
+        color: @blue;
+    }
+
+    &.numeric.php {
+        color: @numeric-php;
+    }
+}
+
+.invalid.php {
+    color: @red;
+}
